@@ -1,0 +1,129 @@
+.Event_container {
+    height: 100%;
+    width: 85%;
+    /* background-color: rgb(173, 105, 17); */
+}
+
+.create_Event_Container {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    overflow: scroll;
+}
+
+.box {
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 40px;
+    min-width: 21%;
+    background-color: #ffffff;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.create_Event_Container::-webkit-scrollbar {
+    display: none;
+}
+
+.create {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus {
+    font-size: 30px;
+}
+
+.ceate_text {
+    font-size: 24px;
+}
+
+.sort_container {
+    height: 5%;
+    background-color: rgb(67, 152, 226);
+    width: 100%;
+}
+
+.Event_list_container {
+    height: 55%;
+    background-color: rgb(125, 67, 226);
+    width: 100%;
+}
+
+.banner {
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.banner img {
+    background-color: aquamarine;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile_pic_circle_container {
+    height: 103px;
+    width: 103px;
+    left: 140px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    top: -51px;
+}
+
+.face {
+    height: 103px;
+    width: 103px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.date_time_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    position: relative;
+    top: -103px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.date_time_container p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divide p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.active_circle {
+    background-color: rgb(0, 206, 0);
+    height: 12px;
+    width: 12px;
+    margin-top: 2px;
+    border-radius: 50%;
+}

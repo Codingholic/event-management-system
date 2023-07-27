@@ -1,0 +1,6 @@
+.Display{
+    height: 100vh;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+}
