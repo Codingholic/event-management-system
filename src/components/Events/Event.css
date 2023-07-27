@@ -5,6 +5,7 @@
 }
 
 .create_Event_Container {
+
     height: 40%;
     width: 100%;
     display: flex;
@@ -14,6 +15,16 @@
 }
 
 .box {
+    cursor: pointer;
+    height: 80%;
+    border-radius: 20px;
+    margin-left: 40px;
+    min-width: 21%;
+    background-color: #ffffff;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.boxCreate {
+    cursor: pointer;
     height: 80%;
     border-radius: 20px;
     margin-left: 40px;
@@ -43,13 +54,13 @@
 
 .sort_container {
     height: 5%;
-    background-color: rgb(67, 152, 226);
+    /* background-color: rgb(67, 152, 226); */
     width: 100%;
 }
 
 .Event_list_container {
     height: 55%;
-    background-color: rgb(125, 67, 226);
+    /* background-color: rgb(125, 67, 226); */
     width: 100%;
 }
 
@@ -126,4 +137,40 @@
     width: 12px;
     margin-top: 2px;
     border-radius: 50%;
+}
+
+/* FORM */
+
+.CreateEvent_form_contaniner_show{
+    position: absolute;
+    top: 45px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 40px;
+    right: 544px;
+    height: 90%;
+    width: 38%;
+    /* background-color: aquamarine; */
+}
+.hide{
+    max-width: 0px;
+    max-height: 0px;
+    display: none;
+}
+.CreateEvent_form_contaniner_show form{
+    color: white;
+    background-color: #2d3499;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 155px;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+.form_buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

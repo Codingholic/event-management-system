@@ -26,9 +26,13 @@
 }
 
 .box3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: 10%;
     width: 100%;
-    background-color: rgb(65, 3, 49);
+    
+    /* background-color: rgb(65, 3, 49); */
 }
 
 .company_logo {
@@ -69,4 +73,24 @@
     justify-content: center;
     align-items: center;
     /* background-color: aqua; */
+}
+
+.useProfile{
+    height: 60px;
+    width: 60px;
+    background-color: #23dc70;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.signout{
+    height: 46px;
+    width: 91px;
+    cursor: pointer;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 }
